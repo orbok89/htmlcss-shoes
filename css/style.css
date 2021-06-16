@@ -7,18 +7,22 @@
 html {
     scroll-behavior: smooth;
   }
+
 /* fine generali */
 #rosso{
+    position: relative;
     width: 100%;
     height: 100vh;
     background-color: red;
 }
 #verde{
+    position: relative;
     width: 100%;
     height: 100vh;
     background-color: green;
 }
 #giallo{
+    position: relative;
     width: 100%;
     height: 100vh;
     background-color: yellow;
@@ -39,4 +43,19 @@ nav{
     position: fixed;
     right: 0;
     top:15px;
+    z-index: 3;
+}
+.centratore{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h2{
+    text-align: center;
+    color: yellow;
+    text-transform: uppercase;
+}
+.testo-verde{
+    color: green;
 }
